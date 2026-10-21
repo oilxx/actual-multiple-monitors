@@ -1,0 +1,14 @@
+# Language detection rules
+*.png binary
+*.svg text
+*.ico binary
+*.json linguist-detectable=false
+src/**/*.ts linguist-detectable
+
+src/** linguist-detectable
+dist/* linguist-vendored
+public/*.html linguist-vendored
+public/** linguist-vendored
+
+*.yaml linguist-detectable=false
+# eof 419cced2
